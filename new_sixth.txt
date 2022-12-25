@@ -1,0 +1,16 @@
+$ git add --a //to convert from from untracked to unmodified or tracking stage 
+$ touch .gitignore
+$ git diff //compares the two versions of file one in the staging area and other in working directory
+$ git diff --staged //compares the version of file in current stage and last commited stage
+$ git commit -a -m "--comment--" //this is used to stage every tracked file and commit them 
+$ git rm 'file_name.extension' //to remove the file and stage it at a time
+$ git mv file_name.extension new_file_name.extension //to rename a file and stage it simultaneously
+$ git rm --cached filename.extension //used to untrack the file but we have to add it in gitignore to ignore it successfully
+$ git log -p //this will show the changes along with the git log
+$ git log -p -num //num numbers of logs willbe shown 
+$ git log --stat //summary of commits
+$ git log --pretty=oneline //print all the logs in one line we can also use 'short' or 'full'
+$ git log --since=#.days //shows commits from pas # days we can also use weeks months years 
+$ git log --pretty=format: "%h -- %an" //h is hash of commit and an is author name  we can use %ae for email
+$ git commit --amend //for changing a previous commit message or merging current commit with a previous one
+ 
