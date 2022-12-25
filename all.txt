@@ -22,3 +22,4 @@ $ git log --pretty=format:"%h -- %an" //h is hash of commit and an is author nam
 $ git commit --amend //for changing a previous commit message or merging current commit with a previous one I (insert) esc(escape) then ':' then finally 'wq'
 $ git restore --staged <file> //to unstage a file 
 $ git checkout -- <file> //used to unmodify the file
+$ git remote add origin https://github.com/icode100/this-is-a-repository-for-git-commands.git // command for adding to git hub server
