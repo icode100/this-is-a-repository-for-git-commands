@@ -11,7 +11,7 @@ $ git log -p -num //num numbers of logs willbe shown
 $ git log --stat //summary of commits
 $ git log --pretty=oneline //print all the logs in one line we can also use 'short' or 'full'
 $ git log --since=#.days //shows commits from pas # days we can also use weeks months years 
-$ git log --pretty=format: "%h -- %an" //h is hash of commit and an is author name  we can use %ae for email
+$ git log --pretty=format:"%h -- %an" //h is hash of commit and an is author name  we can use %ae for email
 $ git commit --amend //for changing a previous commit message or merging current commit with a previous one I (insert) esc(escape) then wq
 
  
