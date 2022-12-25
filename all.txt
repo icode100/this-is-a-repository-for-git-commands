@@ -23,3 +23,4 @@ $ git commit --amend //for changing a previous commit message or merging current
 $ git restore --staged <file> //to unstage a file 
 $ git checkout -- <file> //used to unmodify the file
 $ git remote add origin https://github.com/icode100/this-is-a-repository-for-git-commands.git // command for adding to git hub server
+$ git config --global alias.<alias> <operation> //creates an alias for the given operation so that it can be accessed using the alias name 
