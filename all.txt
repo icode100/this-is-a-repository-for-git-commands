@@ -1,3 +1,10 @@
+this is my first repository
+$ git init
+$ git add --a
+$ git commit -m "this is done"
+$ git log 
+$ git status
+$ rm -rf .git
 $ git add --a //to convert from from untracked to unmodified or tracking stage 
 $ touch .gitignore
 $ git diff //compares the two versions of file one in the staging area and other in working directory

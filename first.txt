@@ -1,7 +1,0 @@
-this is my first repository
-$ git init
-$ git add --a
-$ git commit -m "this is done"
-$ git log 
-$ git status
-$ rm -rf .git
