@@ -14,4 +14,4 @@ $ git log --since=#.days //shows commits from pas # days we can also use weeks m
 $ git log --pretty=format:"%h -- %an" //h is hash of commit and an is author name  we can use %ae for email
 $ git commit --amend //for changing a previous commit message or merging current commit with a previous one I (insert) esc(escape) then wq
 $ git restore --staged <file> //to unstage a file 
- 
+$ git checkout -- <file> //used to unmodify the file
