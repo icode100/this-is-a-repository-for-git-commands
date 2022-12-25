@@ -27,3 +27,4 @@ $ git remote add origin https://github.com/icode100/this-is-a-repository-for-git
 $ git config --global alias.<alias> <operation> //creates an alias for the given operation so that it can be accessed using the alias name 
 $ git checkout -b <new branch>//creating new branch
 $ git checkout <branch name> //for switching branches
+$ git push --set-upstream origin new_branch //for pushing the branch created
