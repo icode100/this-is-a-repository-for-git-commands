@@ -29,4 +29,4 @@ $ git checkout -b <new branch>//creating new branch
 $ git checkout <branch name> //for switching branches
 $ git push --set-upstream origin new_branch //for pushing the branch created
 $ git merge <branch> // to merge the brancg to master
-hoo
+$ git branch --delete <branch name> // to delete the created branch
