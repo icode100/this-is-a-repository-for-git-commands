@@ -34,3 +34,4 @@ $ git branch -v //shows a branch its last commit id and message
 $ git branch --merged //shows the branches that have been merged
 $ git branch --no-merged //shows the branch that have not been merged
 $ git branch -D <branch name> //to delete the branch that is not completely merged to master
+//topic branch and long running branch
