@@ -38,3 +38,4 @@ $ git branch --no-merged //shows the branch that have not been merged
 $ git branch -D <branch name> //to delete the branch that is not completely merged to master
 // long running and topic branches
 $ git push origin <branch>:<branch to display on remote> //changes name of the local repository in remote repository
+$ git push -d origin <branch> //for deleting branch from remote 
