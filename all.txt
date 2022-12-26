@@ -30,3 +30,6 @@ $ git checkout <branch name> //for switching branches
 $ git push --set-upstream origin new_branch //for pushing the branch created
 $ git merge <branch> // to merge the brancg to master
 $ git branch --delete <branch name> // to delete the created branch
+$ git branch -v //shows a branch its last commit id and message
+$ git branch --merged //shows the branches that have been merged
+$ git branch --no-merged //shows the branch that have not been merged
