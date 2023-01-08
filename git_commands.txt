@@ -1,4 +1,6 @@
 this is my first repository
+$ git config --global user.name "<name>"
+$ git config --global user.email "<email>"
 $ git init
 $ git add --a
 $ git commit -m "this is done"
